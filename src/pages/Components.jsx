@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Button from '../components/Button/Button.jsx'
 import Navbar from '../components/Navbar/Navbar.jsx'
 import Badge from '../components/Badge/Badge.jsx'
-import Alert from '../components/Alert/Alert'
+import Alert from '../components/Alert/Alert.jsx'
 import { componentsList } from '../data/componentsList.js'
 import './Components.css'
 
