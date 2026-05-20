@@ -44,7 +44,9 @@ Every component is:
 | 🏆 GSSoC Ready       | Structured for open-source programs like GSSoC     |
 | 📦 Zero Extra Deps   | Only React + React Router. No bloat                |
 | 🎨 Plain CSS         | No Tailwind — so contributors learn real CSS       |
-
+| 🏆 GSSoC Ready | Structured for open-source programs like GSSoC |
+| 📦 Minimal Dependencies | Uses React, React Router, and react-icons while keeping the project lightweight |
+| 🎨 Plain CSS | No Tailwind — so contributors learn real CSS |
 ---
 
 ## 🚀 Getting Started
@@ -291,6 +293,7 @@ Looking for something to build? Here are some ideas:
 
 ## 🏗️ Tech Stack
 
+
 | Tool                                    | Version | Purpose                   |
 | --------------------------------------- | ------- | ------------------------- |
 | [React](https://react.dev)              | 18      | UI rendering              |
@@ -348,6 +351,15 @@ To store additional user data (profile picture, bio, etc.):
 1. In Supabase dashboard, go to **SQL Editor**
 2. Create a `profiles` table linked to the `auth.users` table
 3. Update `src/services/authService.js` to sync with the `profiles` table
+
+| Tool | Version | Purpose |
+|------|---------|---------|
+| [React](https://react.dev) | 18 | UI rendering |
+| [Vite](https://vitejs.dev) | 5 | Dev server + bundler |
+| [React Router](https://reactrouter.com) | 6 | Client-side routing |
+| Plain CSS | — | Component styling |
+| [React Icons](https://react-icons.github.io/react-icons/) | 5 | Lightweight icon library for React components |
+
 
 ---
 
